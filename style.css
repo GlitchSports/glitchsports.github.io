@@ -78,6 +78,7 @@ p, ul, ol { margin: 0 0 14px; }
 ul, ol { padding-left: 22px; }
 li { margin-bottom: 6px; }
 a { color: var(--ink); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+a[href^="mailto:"] { text-decoration: none; font-weight: 700; }
 strong { font-weight: 800; }
 .muted { color: var(--muted); }
 .small { font-size: 14px; }
@@ -163,6 +164,8 @@ details[open] { padding-bottom: 6px; }
   font-weight: 800;
   white-space: nowrap;
 }
+/* Small phones: long menu paths may wrap rather than push the page sideways. */
+@media (max-width: 420px) { .path { white-space: normal; } }
 
 footer {
   margin-top: 56px;
