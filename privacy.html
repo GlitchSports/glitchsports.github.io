@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy Policy · Glitch Sports</title>
+<meta name="description" content="Privacy policy for the Glitch Sports iPhone game.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="bar">
+    <a class="brand" href="index.html">Glitch Sports</a>
+    <nav class="nav" aria-label="Site">
+      <a href="support.html">Support</a>
+      <a href="privacy.html" aria-current="page">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="muted">Effective 27 October 2026</p>
+
+    <p>This policy explains what the Glitch Sports iPhone game ("the game", "we", "us") collects, why, who else
+    receives it, and how you can delete it. The game is made by <strong>Glitch Sports</strong>, a sole proprietorship registered in British Columbia, Canada.</p>
+
+    <div class="box">
+      <p><strong>The short version</strong></p>
+      <ul>
+        <li>You never create an account and never give us your name or email address. The game gives you a random, anonymous player id.</li>
+        <li>We store your game progress, gameplay events, crash/diagnostic data and any problem reports you send, linked to that anonymous id.</li>
+        <li>Ads are served by Google AdMob. Google may use your device's advertising identifier only if you allow tracking when iOS asks.</li>
+        <li>Apple handles all payments. We never see your card or Apple ID details.</li>
+        <li><span class="path">Settings &rarr; Cloud save &rarr; Delete my data</span> deletes what our server keeps about you.</li>
+      </ul>
+    </div>
+
+    <h2>1. Your anonymous player id</h2>
+    <p>The first time the game goes online it signs you in anonymously and gets a random player id (a UUID). It isn't
+    based on your name, email, phone number or device identifiers. The sign-in session is stored in your iPhone's
+    Keychain, so it survives deleting and reinstalling the game on the same phone (and can come with you if you
+    restore a new phone from an encrypted backup). Everything below that we store on our server is linked to this id.</p>
+
+    <h2>2. What we collect and why</h2>
+
+    <h3>Game progress (cloud save)</h3>
+    <p>A copy of your saved game: trophies, unlocked and equipped items, best scores and stats per mode, Glitch Run progress,
+    progress in hidden modes, login days, daily-challenge streak and coupons. It's uploaded a few seconds after
+    you save (never during a game) so it can be restored and kept in sync. <em>Purpose: running the game (backup and
+    restore).</em></p>
+
+    <h3>Device and app facts</h3>
+    <p>Each time the game connects: your device's hardware model (for example "iPhone17,1", never its name), iOS
+    version (in diagnostics), the app version, your App Store country (from Apple's storefront, not from your
+    location) and your device language, plus when your player id was created and last seen. <em>Purpose: running the
+    game, compatibility and fixing problems.</em></p>
+
+    <h3>Gameplay events (analytics)</h3>
+    <p>A compact log of what happens in the game, for example: a session started or ended (and how long it lasted),
+    a game or run finished (mode, score, makes, perfects, distance, zone reached), an item unlocked and how, a secret
+    found, a level or boss fight in a hidden mode finished, a daily reward or challenge claimed, an ad watched (type and
+    where in the game), a gift claimed, a purchase made (which product). Events are queued on your phone and sent in
+    batches, and wait while Low Data Mode is on. <em>Purpose: understanding how the game is played so we can balance
+    and improve it, and to send in-game gifts to groups of players (for example, "players stuck on a level").</em></p>
+
+    <h3>Crash and diagnostic data</h3>
+    <p>When the game crashes, hangs or runs into an error, it records:</p>
+    <ul>
+      <li><strong>Crash and hang reports</strong> from Apple's MetricKit: the type of problem, a short technical
+        description, the top lines of the crash trace (memory offsets inside the app), the app version, iOS version
+        and device model.</li>
+      <li><strong>Daily performance metrics</strong> from MetricKit: launch and resume time, hang time, time in the
+        foreground, peak memory and the number of unexpected exits.</li>
+      <li><strong>Error logs</strong> for things that went wrong without a crash (for example a failed download), with
+        a short fixed message and a few technical details.</li>
+      <li><strong>Breadcrumbs</strong>: the last ~20 steps before the problem, as short labels only, such as which
+        screen was open, which mode was being played, a score or zone number, or an item id. Breadcrumbs never contain
+        text you typed.</li>
+    </ul>
+    <p>Any email address or long number (7 or more digits) that ends up in an error description is replaced on your
+    phone before it is stored. Diagnostics are queued on your phone and sent when you're online and not in a game.
+    <em>Purpose: finding and fixing bugs and crashes.</em></p>
+
+    <h3>"Report a problem" messages</h3>
+    <p>If you use <span class="path">Settings &rarr; Help &rarr; Report a problem</span>, we receive:</p>
+    <ul>
+      <li>Your message (up to 500 characters). <strong>Before it leaves your phone</strong>, email addresses are
+        replaced with "[email]" and runs of 7 or more digits (like phone or card numbers) with "[number]". Please
+        don't include your name or other personal details anyway.</li>
+      <li>A small summary of your progress (trophies, number of items, games played per mode, best run distance,
+        levels and boss fights completed, login days).</li>
+      <li>The app version, iOS version and device model, and a reference code (like GS-7K2QXM) shown to you.</li>
+      <li>If "Include recent activity" is on (the default): your recent breadcrumbs and the last few errors the game
+        noticed. Turn it off to send only the items above.</li>
+    </ul>
+    <p><em>Purpose: answering and fixing the problem you reported.</em> We may also send you an in-game gift through
+    the game in response; we can't reply to you directly unless you email us.</p>
+
+    <h3>Purchase records</h3>
+    <p>Purchases are made through Apple. After a purchase, the game sends Apple's signed receipt for it to our server,
+    which checks it with Apple and records the product, transaction ids, purchase date, store environment and whether
+    it was refunded. We never receive your name, Apple ID, payment card or billing address. <em>Purpose: preventing
+    fraud and restoring purchases correctly when accounts are linked.</em> What you own in the game is always read
+    from Apple's own records on your phone.</p>
+
+    <h3>Game Center (optional)</h3>
+    <p>If you're signed in to Game Center, your achievements, high scores and best streaks are sent to Apple's
+    Game Center, where leaderboards may show them to other players under your Game Center nickname, according to
+    your Game Center settings. Apple handles this data under
+    <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>. We also store your Game Center
+    <em>team player id</em> (a game-specific id from Apple, not your nickname) next to your anonymous player id, so we
+    can offer to restore your saved game on a new phone. A restore is only done after the game checks Apple's
+    signature proving you are that Game Center player.</p>
+
+    <h3>Sign in with Apple (optional)</h3>
+    <p>If you choose <span class="path">Settings &rarr; Cloud save &rarr; Save my progress</span>, you sign in with
+    Apple. The game asks Apple for <strong>no name and no email</strong>; we only receive Apple's stable, app-specific
+    user id, which we link to your anonymous player id so you can get your progress back on another phone.</p>
+
+    <h3>Gifts and remote settings</h3>
+    <p>The game checks our server for gifts (free items, trophies or coupons we send to players) and for game
+    settings we can tune without an app update. We record which gifts you've claimed.</p>
+
+    <h3>What we don't collect</h3>
+    <p>We don't collect your name, email address, phone number, contacts, photos, precise location or your device's
+    advertising identifier. We don't sell personal data.</p>
+
+    <h2>3. Ads (Google AdMob)</h2>
+    <p>The game is free and shows ads from <strong>Google AdMob</strong>: optional rewarded videos you choose to
+    watch, and full-screen ads between games (never during a game). Google's software in the game collects
+    information to show, measure and protect ads, which can include your device's advertising identifier (IDFA,
+    only if you allow tracking), your IP address and the coarse location derived from it, device and app
+    information, and how you interact with ads. Google uses it as described in
+    <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>
+    and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+    <ul>
+      <li><strong>Consent (EEA, UK, Switzerland and some other regions):</strong> the game shows Google's consent
+        message before ads load. You can change your choice any time in
+        <span class="path">Settings &rarr; Privacy &rarr; Ad privacy choices</span> (shown where it applies).</li>
+      <li><strong>Tracking (App Tracking Transparency):</strong> iOS asks whether Glitch Sports may track you. If you
+        tap "Ask App Not to Track", the advertising identifier isn't shared and you'll still see ads, just less
+        personalised ones. You can change this any time in the iOS Settings app (also reachable from
+        <span class="path">Settings &rarr; Privacy &rarr; Tracking &amp; app settings</span> in the game).</li>
+      <li><strong>Family-safe ads:</strong> the game asks Google for ads suitable for general audiences (rating G),
+        and sensitive ad categories are blocked.</li>
+      <li><strong>Remove Ads:</strong> buying Remove Ads (or the Everything Bundle) stops full-screen ads. Rewarded
+        ads stay optional.</li>
+    </ul>
+    <p>The ad events we log ourselves (section 2) record only that an ad was watched and where, never the advertising
+    identifier.</p>
+
+    <h2>4. Who else receives data</h2>
+    <ul>
+      <li><strong>Supabase</strong> hosts our server and database (anonymous player id, cloud save, events,
+        diagnostics, problem reports, purchase records). Supabase processes this data on our behalf. As part of
+        handling network requests its infrastructure may log your IP address; we don't store IP addresses in our
+        database.</li>
+      <li><strong>Google (AdMob)</strong> receives the ad data described in section 3.</li>
+      <li><strong>Apple</strong> processes payments, Game Center and Sign in with Apple under its own privacy policy,
+        and provides the crash reports and metrics (MetricKit) the game forwards to us.</li>
+      <li><strong>Resend</strong> delivers a daily alert email to us containing only totals (for example the number of
+        crashes and players affected and error types), never player ids or messages.</li>
+    </ul>
+    <p>We may also disclose data if required by law, or to protect the game and its players from fraud or abuse.</p>
+
+    <h2>5. How long we keep it</h2>
+    <p>Gameplay events, crash and error reports, performance metrics and problem reports are deleted automatically
+    <strong>13 months</strong> after they were recorded. Your player id, cloud save, purchase records and gift claims
+    are kept for as long as your player id exists, so your progress can always be restored, until you delete them
+    with "Delete my data". Data kept on your phone stays there until you delete the game (the anonymous sign-in stays
+    in your Keychain even then).</p>
+
+    <h2 id="delete">6. Delete my data</h2>
+    <p>In the game: <span class="path">Settings &rarr; Cloud save &rarr; Delete my data</span>. It deletes your
+    anonymous player id, any older ids of yours merged into it when you restored a save, and everything our server
+    has linked to them: your cloud save, gameplay events, purchase
+    records, Game Center and Sign in with Apple links, gift claims, crash and error reports, performance metrics and
+    problem reports. It can't be undone. The game also forgets the sign-in on your phone and clears its queued events and diagnostics.
+    Optionally, "Also reset this device" starts your game over on that phone too.</p>
+    <ul>
+      <li>Your purchases stay with your Apple ID: use Restore purchases to get them back.</li>
+      <li>Game Center scores and achievements are Apple's; manage them in the iOS Settings app (Game Center).</li>
+      <li>If you can't use the button (for example you deleted the game), email us at
+        <a href="mailto:glitch.sports.info@gmail.com">glitch.sports.info@gmail.com</a>. Because we don't know who you are, please include a
+        "Report a problem" reference code or your Game Center nickname so we can find the right player.</li>
+    </ul>
+
+    <h2>7. Your rights</h2>
+    <p>Depending on where you live (for example the EEA, UK or California) you may have the right to access, correct,
+    delete or export your data, to object to or restrict some uses, and to withdraw consent. Use "Delete my data" or
+    email <a href="mailto:glitch.sports.info@gmail.com">glitch.sports.info@gmail.com</a> (see section 6 on identifying your player). You can also
+    complain to your local data protection authority.</p>
+    <p>Where the GDPR applies, we rely on: <strong>performance of our agreement with you</strong> to run the game
+    and cloud save; our <strong>legitimate interests</strong> in improving the game, fixing bugs and preventing fraud
+    (analytics, diagnostics, purchase checks); and your <strong>consent</strong> for personalised ads (collected through
+    Google's consent message).</p>
+    <p>We are based in British Columbia, Canada. Canadian players are covered by Canada's privacy laws (PIPEDA, and
+    British Columbia's PIPA); you can ask us what we hold about you, ask us to correct or delete it, and complain to the
+    Office of the Privacy Commissioner of Canada or the Information and Privacy Commissioner for British Columbia.</p>
+
+    <h2>8. Children</h2>
+    <p>Glitch Sports is rated 4+ on the App Store and is meant for a general audience. It is not directed at children
+    under 13 and we don't knowingly collect personal information from them. We don't ask for names, emails or ages,
+    ads are limited to general-audience (G-rated) content, and sensitive ad categories are blocked. If you are a parent
+    and think your child has sent us information, use "Delete my data" on their device or email us and we'll delete it.</p>
+
+    <h2>9. Where data is processed</h2>
+    <p>Our server is hosted by Supabase in <strong>the United States (AWS us-east-1, North Virginia)</strong>, so
+    data from players in Canada and elsewhere is stored there and may be accessible to U.S. authorities under U.S. law.
+    Google and Apple process data in many countries. When data moves outside your country, we rely on our providers'
+    safeguards, such as the European Commission's Standard Contractual Clauses.</p>
+
+    <h2>10. Security</h2>
+    <p>Data travels over encrypted connections (HTTPS). On our server each player can only write their own data and
+    can't read anyone else's; only we can view it, through a private admin page. No system is perfectly secure, but we
+    keep what we collect small for that reason.</p>
+
+    <h2>11. Changes</h2>
+    <p>If we change this policy, we'll update this page and the effective date above. If a change is significant
+    (for example collecting a new kind of data), we'll also tell you in the game or in the App Store release notes.</p>
+
+    <h2>12. Contact</h2>
+    <p>Glitch Sports<br>
+    Email: <a href="mailto:glitch.sports.info@gmail.com">glitch.sports.info@gmail.com</a></p>
+  </main>
+
+  <footer>
+    <p><a href="index.html">Home</a><a href="support.html">Support</a><a href="terms.html">Terms of use</a></p>
+    <p>&copy; 2026 Glitch Sports</p>
+  </footer>
+</div>
+</body>
+</html>
